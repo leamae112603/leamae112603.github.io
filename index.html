@@ -20,9 +20,6 @@
     <meta name="twitter:description" content="Full-stack Web Developer | UI/UX Designer | Digital Marketer. Crafting clean, responsive websites and beautiful digital experiences.">
     <meta name="twitter:image" content="https://leamae112603.github.io/profile.jpg">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23ff6b35'>L</text></svg>">
-    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,7 +29,7 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -45,7 +42,7 @@
                     <p class="hero-label">HELLO!</p>
                     <h1>I'm <span class="highlight">Lea Mae</span></h1>
                     <p class="hero-role">Web Developer & Designer</p>
-                    <p class="hero-description">Blending thoughtful UI design with clean, responsive development to create websites that look great and perform reliably. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="hero-description">A passionate 4th year college student dedicated to crafting clean, intuitive, and responsive digital experiences. I blend thoughtful UI design with clean development to create websites that look great and perform reliably.</p>
                     <a href="#contact" class="btn btn-primary">Let's talk</a>
                     <div class="social-links">
                         <a href="https://www.facebook.com/lea.623106/" target="_blank" rel="noopener noreferrer" title="Facebook">f</a>
@@ -66,18 +63,57 @@
         <section id="about" class="about-section">
             <div class="container">
                 <div class="about-wrapper">
+                    <div class="about-content">
+                        <div class="section-title">
+                            <h2>About <span class="highlight">me</span></h2>
+                        </div>
+                        <p class="about-text">
+                            Hi! My name is <strong>Lea Mae Contiñeta</strong>. I am a UI/UX designer based in the Philippines with experience through projects and subjects in university.
+                        </p>
+                        <p class="about-objective">
+                            <strong>My objective:</strong> Challenge myself in a new environment to learn, develop, and improve my skills through different projects and contribute more to the company with my abilities.
+                        </p>
+                    </div>
                     <div class="about-image">
-                        <div class="glow-circle-small"></div>
+                        <div class="glow-circle-cyan"></div>
                         <img src="profile.jpg" alt="Lea Mae" class="profile-photo-about">
                     </div>
-                    <div class="about-content">
-                        <h2>About <span class="highlight">Me</span></h2>
-                        <p class="about-role">Full-stack Web Developer</p>
-                        <p class="about-text">
-                            Hi! I'm a passionate 4th year college student and developer dedicated to crafting clean, intuitive, and responsive digital experiences. I focus on turning ideas into secure, interactive interfaces leveraging a design-to-code workflow.
-                        </p>
-                        <a href="#contact" class="btn btn-secondary">More Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h3>Contact</h3>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <a href="mailto:leamaeconti@gmail.com">leamaeconti@gmail.com</a>
                     </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+63 (optional phone)</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🔗</span>
+                        <a href="https://www.facebook.com/lea.623106/" target="_blank">facebook.com/lea.623106</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <a href="https://github.com/leamae112603" target="_blank">github.com/leamae112603</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section">
+            <div class="container">
+                <h3>Education</h3>
+                <div class="education-content">
+                    <span class="year-badge">2020 - Now</span>
+                    <p class="education-text">Pursuing degree in UI/UX Design and Web Development</p>
                 </div>
             </div>
         </section>
@@ -85,76 +121,72 @@
         <!-- Skills Section -->
         <section id="skills" class="skills-section">
             <div class="container">
-                <h2>My <span class="highlight">Skills</span></h2>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <label>HTML</label>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
+                <div class="skills-wrapper">
+                    <!-- Technical Skills -->
+                    <div class="skills-column">
+                        <h3>Technical skill</h3>
+                        <div class="tech-skills-grid">
+                            <div class="tech-skill-item">
+                                <span class="skill-icon figma">F</span>
+                                <span>Figma</span>
+                            </div>
+                            <div class="tech-skill-item">
+                                <span class="skill-icon premiere">Pr</span>
+                                <span>Premiere Pro</span>
+                            </div>
+                            <div class="tech-skill-item">
+                                <span class="skill-icon aftereffects">Ae</span>
+                                <span>After Effects</span>
+                            </div>
+                            <div class="tech-skill-item">
+                                <span class="skill-icon illustrator">Ai</span>
+                                <span>Illustrator</span>
+                            </div>
+                            <div class="tech-skill-item">
+                                <span class="skill-icon indesign">Id</span>
+                                <span>InDesign</span>
+                            </div>
+                            <div class="tech-skill-item">
+                                <span class="skill-icon photoshop">Ps</span>
+                                <span>Photoshop</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="skill-item">
-                        <label>CSS</label>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <label>JAVASCRIPT</label>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <label>FIGMA</label>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <label>REACT</label>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 70%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <label>UX/UI DESIGN</label>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Services Section -->
-        <section id="services" class="services-section">
-            <div class="container">
-                <h2>My <span class="highlight">Services</span></h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M10 20v-6h4v6M15 3H9a6 6 0 0 0-6 6v7h18V9a6 6 0 0 0-6-6Z"></path>
-                            </svg>
+                    <!-- Soft Skills & Skill Set -->
+                    <div class="skills-column">
+                        <h3>Soft skill</h3>
+                        <div class="soft-skills-list">
+                            <div class="soft-skill-item">Teamwork</div>
+                            <div class="soft-skill-item">Communication</div>
+                            <div class="soft-skill-item">Critical Thinking</div>
+                            <div class="soft-skill-item">Time Management</div>
                         </div>
-                        <h3>Web development</h3>
+
+                        <h3 style="margin-top: 2rem;">Skill set</h3>
+                        <div class="soft-skills-list">
+                            <div class="soft-skill-item">User research</div>
+                            <div class="soft-skill-item">Wireframing</div>
+                            <div class="soft-skill-item">Brainstorming</div>
+                            <div class="soft-skill-item">Web Design</div>
+                            <div class="soft-skill-item">App Design</div>
+                            <div class="soft-skill-item">Prototyping</div>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path>
-                            </svg>
+
+                    <!-- Interests & Languages -->
+                    <div class="skills-column">
+                        <h3>Interest</h3>
+                        <div class="interests-list">
+                            <span class="interest-item">Design Trends</span>
+                            <span class="interest-item">Technology</span>
                         </div>
-                        <h3>Graphic Designer</h3>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle>
-                            </svg>
+
+                        <h3 style="margin-top: 2rem;">Language</h3>
+                        <div class="interests-list">
+                            <span class="interest-item">Vietnamese</span>
+                            <span class="interest-item">English (Pre-Intermediate)</span>
                         </div>
-                        <h3>Digital Marketer</h3>
                     </div>
                 </div>
             </div>
